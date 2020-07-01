@@ -1,7 +1,7 @@
 | ![alt text](https://coding-assets.s3-us-west-2.amazonaws.com/img/pumabot-readme.png "GitHub avatar for author Tristan Emmerson") |
 |:-----:|
 | [**tmemmerson**](https://github.com/tmemmerson) |
-
+ 
 **EDIT** # _$TITLE$_
 
 **EDIT** #### _$TAGLINE$_	
