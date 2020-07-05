@@ -1,63 +1,96 @@
-![alt text](https://coding-assets.s3-us-west-2.amazonaws.com/img/pumabot.png "GitHub avatar for author Tristan Emmerson")
-|:-----:|
- [**tmemmerson**](https://github.com/tmemmerson)
- 
-**EDIT** # _$TITLE$_
+<p align="center">
+  <img width="250" height="250" src="https://coding-assets.s3-us-west-2.amazonaws.com/img/stickerslug-logo3.png">
+</p>
 
-**EDIT** #### _$TAGLINE$_	
+<br>
+
+# _Currency Exchanger_
+
+#### _swap your colored paper for another countries' colored paper_	
 
 #### By _**Tristan Emmerson**_
 
-## **Description**
+<br>
 
-**EDIT** _$DESCRIPTION-SECTION$_
+## **DESCRIPTION**
 
-## **Specifications**
+_this app will utilize an api to dynamically import exchange rate data for our user_
 
-**EDIT** $IMPORT TABLE HERE$
+<br>
 
-## **Setup/Installation Requirements**
+## **SPECIFICATIONS**
+
+| Spec 	| Input 	| Output 	|
+|-	|-	|-	|
+| accept user input of USD amount 	| 500 	| 500.00 	|
+| offer user 5 exchange options 	| EUR/JPY/CHF/GBP/AUD 	|  	|
+| make conversion using api call 	| $500 USD => GBP 	| $401.22 GBP 	|
+
+<br>
+
+## **SETUP & INSTALL**
 
 *  _Recommended browser for everything in life. [Google Chrome](https://www.google.com/chrome/)_.
 
-**EDIT** *  _Github [repository](https://github.com/tmemmerson/$REPO$.git)_
+*  _Github [repository](https://github.com/tmemmerson/currency-exchanger4.git)_
 
-**EDIT** *  _Live [demo](https://tmemmerson.github.io/$REPO$/)_
+*  _Live [demo](https://tmemmerson.github.io/currency-exchanger4/)_
 
 *  **Windows/Mac Users:** If modifying for personal use, dl Git [here](https://git-scm.com/downloads/) (v2.62.2)
 
 * Download [Visual Studio Code](https://code.visualstudio.com/) (v1.45)
 
-* Copy URL as shown in graphic below
+* Download ZIP [here](https://github.com/tmemmerson/currency-exchanger4.git) OR if you are comfortable cloning a repo, copy the link as shown below.
 
 ![cloning](https://coding-assets.s3-us-west-2.amazonaws.com/img/clone.gif "How to clone repo")
 
-* Paste copied URL into empty field after clicking "clone repository" button in VSCode
+* this image shows you where to paste your copied link into VSCode
 
-![cloning](https://coding-assets.s3-us-west-2.amazonaws.com/img/clone-github.gif "Cloning from Github within VSCode")
+![cloning](https://coding-assets.s3-us-west-2.amazonaws.com/img/clone-github2.gif "Cloning from Github within VSCode")
 
-* Select the local directory folder where you would like to add this repository
+<br>
 
-* double-click index.html to open in preferred browser for viewing
+## **PROTECTING YOUR DATA**
 
-* to edit project, select "open folder/open folder in new window" after you have successfully cloned the repo to your local machine.
+* Step 0: go to https://www.exchangerate-api.com/ and sign up for an account to get a free API key
 
+* Step 1: create a .gitignore file in the top level of your project directory. populate the file as shown in step 1 of the image below.
+
+* Step 2: commit that .gitignore file (this prevents your sensitive information like your API key being shown to others). **DO NOT PROCEED TO STEP 3 UNTIL YOU DO THIS!**
+
+* Step 3: create a .env file in the top level of your project directory. populate the file as shown in step 3 of the image below _(replacing YourKeyGoesHere with the API key you received from step 0)_
+
+![setup](https://coding-assets.s3-us-west-2.amazonaws.com/img/readme-image.jpg "Set up instructions")
+
+* Step 4: in your terminal type "npm install" and submit. this will install the files necessary to utilize this app.
+
+* Step 5: in your terminal type "npm run build". this will build the app and place those files in a directory labeled "/dist". From here, you can right-click the index.html file and open in your browser or simply drag-and-drop into a browser window. 
+
+* Step 6: enjoy
+
+<br>
 
 ## **Known Bugs**
 
-**EDIT** _**No Known Bugs:** _$DATE$_
+_**No Known Bugs:**7/3/2020_
+
+<br>
 
 ## **Support and contact details**
 
 _Questions, comments and concerns can be directed to the author(s) [Tristan Emmerson](tristan@stickerslug.com)_
 
+<br>
+
 ## **Technologies Used**
 
-_**This was written in:** [Visual Studio Code](https://code.visualstudio.com/) (v1.45)_
+_**Written in:** [Visual Studio Code](https://code.visualstudio.com/)_
 
-_**Image work:** [Adobe Photoshop](https://www.adobe.com/products/photoshop.html/) (v2020)_
+_**Image work:** [Adobe Photoshop](https://www.adobe.com/products/photoshop.html/)_
 
-**EDIT** $ADDT'L TECHNOLOGIES$
+_**API utilized:** [Exchange Rate API](https://www.exchangerate-api.com/)_
+
+<br>
 
 ## **License**
 ![alt text][logo]
