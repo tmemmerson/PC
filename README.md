@@ -4,9 +4,9 @@
 
 <br>
 
-# _Currency Exchanger_
+*EDIT* # __
 
-#### _swap your colored paper for another countries' colored paper_	
+*EDIT* #### __	
 
 #### By _**Tristan Emmerson**_
 
@@ -14,17 +14,15 @@
 
 ## **DESCRIPTION**
 
-_this app will utilize an api to dynamically import exchange rate data for our user_
+*EDIT* __
 
 <br>
 
-## **SPECIFICATIONS**
+*EDIT* ## **SPECIFICATIONS**
 
 | Spec 	| Input 	| Output 	|
 |-	|-	|-	|
-| accept user input of USD amount 	| 500 	| 500.00 	|
-| offer user 5 exchange options 	| EUR/JPY/CHF/GBP/AUD 	|  	|
-| make conversion using api call 	| $500 USD => GBP 	| $401.22 GBP 	|
+
 
 <br>
 
@@ -32,9 +30,9 @@ _this app will utilize an api to dynamically import exchange rate data for our u
 
 *  _Recommended browser for everything in life. [Google Chrome](https://www.google.com/chrome/)_.
 
-*  _Github [repository](https://github.com/tmemmerson/currency-exchanger4.git)_
+*EDIT* *  _Github [repository](https://github.com/tmemmerson/)_
 
-*  _Live [demo](https://tmemmerson.github.io/currency-exchanger4/)_
+*EDIT* *  _Live [demo](https://tmemmerson.github.io/)_
 
 *  **Windows/Mac Users:** If modifying for personal use, dl Git [here](https://git-scm.com/downloads/) (v2.62.2)
 
@@ -52,7 +50,7 @@ _this app will utilize an api to dynamically import exchange rate data for our u
 
 ## **PROTECTING YOUR DATA**
 
-* Step 0: go to https://www.exchangerate-api.com/ and sign up for an account to get a free API key
+*EDIT* * Step 0: go to $URL$ and sign up for an account to get a free API key
 
 * Step 1: create a .gitignore file in the top level of your project directory. populate the file as shown in step 1 of the image below.
 
@@ -72,7 +70,7 @@ _this app will utilize an api to dynamically import exchange rate data for our u
 
 ## **Known Bugs**
 
-_**No Known Bugs:**7/3/2020_
+*EDIT* _**No Known Bugs:**7/3/2020_
 
 <br>
 
@@ -88,7 +86,6 @@ _**Written in:** [Visual Studio Code](https://code.visualstudio.com/)_
 
 _**Image work:** [Adobe Photoshop](https://www.adobe.com/products/photoshop.html/)_
 
-_**API utilized:** [Exchange Rate API](https://www.exchangerate-api.com/)_
 
 <br>
 
